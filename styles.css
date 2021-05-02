@@ -31,8 +31,8 @@ body {
   position: relative;
   text-shadow: 0 0 .45em currentColor;
 
-  box-shadow: 0 0 .5em 0 currentColor
-  /* inset 0 0 .5em 0 currentColor; */
+  box-shadow: 0 0 .5em 0 currentColor,
+  inset 0 0 .5em 0 currentColor;
 }
 
 
