@@ -68,3 +68,24 @@ body {
   inset 0 0 1em 0 currentColor;
 }
 
+
+
+/* ----------Phone Styles------------- */
+
+@media screen and (max-width: 600px) {
+  .neon-button {
+    color: var(--neon);
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    border: var(--neon) .125em solid;
+    padding: .25em 1em;
+    border-radius: .125em;
+    position: relative;
+    text-shadow: 0 0 .45em currentColor;
+  
+    box-shadow: 0 0 .5em 0 currentColor,
+    inset 0 0 .5em 0 currentColor;
+  }
+}
